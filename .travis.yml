@@ -92,7 +92,7 @@ install:
   - catkin config --install
   - catkin config --profile release -x _release
   - catkin profile set release
-  - catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release
+  - catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS="${CMAKE_CXX_FLAGS} -W0"
 
   - catkin build
   # set environment variables - MAKE SURE YOU SOURCE THE RIGHT FILE (debug vs. release)
