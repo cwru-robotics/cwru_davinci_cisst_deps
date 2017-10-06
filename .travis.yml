@@ -124,7 +124,7 @@ before_script:
 script:
   - source /opt/ros/$ROS_DISTRO/setup.bash
   - catkin profile set release
-  - catkin build
+  - catkin build catkin build --cmake-args -DCMAKE_C_FLAGS="-Wno-dev -Wno-unused-parameter"
   # set environment variables - MAKE SURE YOU SOURCE THE RIGHT FILE (debug vs. release)
   - source devel_release/setup.bash
 
