@@ -11,7 +11,7 @@ This repository must be cloned recursively to include all the submodules.
 git clone --recursive https://github.com/cwru-robotics/cwru_davinci_cisst_deps.git
 ```
 
-Once downloaded the packages can be build with catkin tool NOT catkin_make.
+Once downloaded the packages must be built with catkin_tools' catkin build command, NOT catkin_make.
 
 ## catkin build
 
