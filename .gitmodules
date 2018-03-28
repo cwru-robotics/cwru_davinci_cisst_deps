@@ -1,29 +1,37 @@
 [submodule "sawIntuitiveResearchKit"]
 	path = sawIntuitiveResearchKit
 	url = https://github.com/jhu-dvrk/sawIntuitiveResearchKit.git
+	branch = devel
 [submodule "cisst"]
 	path = cisst
 	url = https://github.com/jhu-cisst/cisst.git
+	branch = devel
 [submodule "cisstNetlib"]
 	path = cisstNetlib
 	url = https://github.com/jhu-cisst/cisstNetlib.git
+	branch = devel
 [submodule "cisst-ros"]
 	path = cisst-ros
 	url = https://github.com/jhu-cisst/cisst-ros.git
+	branch = devel
 [submodule "sawRobotIO1394"]
 	path = sawRobotIO1394
 	url = https://github.com/jhu-saw/sawRobotIO1394.git
+	branch = devel
 [submodule "sawControllers"]
 	path = sawControllers
 	url = https://github.com/jhu-saw/sawControllers.git
+	branch = devel
 [submodule "sawKeyboard"]
 	path = sawKeyboard
 	url = https://github.com/jhu-saw/sawKeyboard.git
+	branch = devel
 [submodule "sawConstraintController"]
 	path = sawConstraintController
 	url = https://github.com/jhu-saw/sawConstraintController.git
+	branch = devel
 
 [submodule "sawTextToSpeech"]
 	path = sawTextToSpeech
 	url = https://github.com/jhu-saw/sawTextToSpeech.git
-	branch = origin/tags/b63fee9624
+	branch = devel
